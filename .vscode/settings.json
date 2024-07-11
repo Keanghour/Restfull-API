@@ -1,0 +1,14 @@
+{
+    "python.analysis.extraPaths": [
+        "./app"
+    ],
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "API - Gateway",
+            "database": "${workspaceFolder:API - Gateway}/app/app.db"
+        }
+    ]
+}
